@@ -1,0 +1,79 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L enigma-rescue:74LS14 U?
+U 1 1 5F49F821
+P 3350 2850
+F 0 "U?" H 3500 2950 50  0000 C CNN
+F 1 "74LS14" H 3550 2750 50  0000 C CNN
+F 2 "" H 3350 2850 50  0000 C CNN
+F 3 "" H 3350 2850 50  0000 C CNN
+	1    3350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L enigma-rescue:R R?
+U 1 1 5F49F92B
+P 3400 3400
+F 0 "R?" V 3480 3400 50  0000 C CNN
+F 1 "1k" V 3400 3400 50  0000 C CNN
+F 2 "" V 3330 3400 50  0000 C CNN
+F 3 "" H 3400 3400 50  0000 C CNN
+	1    3400 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3400 3550 3400
+Wire Wire Line
+	3250 3400 3250 3100
+Wire Wire Line
+	3250 3100 2900 3100
+Wire Wire Line
+	2900 3100 2900 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5F49FD2A
+P 3300 2950
+F 0 "#PWR?" H 3300 2700 50  0001 C CNN
+F 1 "GND" H 3305 2777 50  0000 C CNN
+F 2 "" H 3300 2950 50  0001 C CNN
+F 3 "" H 3300 2950 50  0001 C CNN
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F4A00EC
+P 3300 2750
+F 0 "#PWR?" H 3300 2600 50  0001 C CNN
+F 1 "+5V" H 3315 2923 50  0000 C CNN
+F 2 "" H 3300 2750 50  0001 C CNN
+F 3 "" H 3300 2750 50  0001 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F4A06E8
+P 3800 3400
+F 0 "#PWR?" H 3800 3250 50  0001 C CNN
+F 1 "+5V" H 3815 3573 50  0000 C CNN
+F 2 "" H 3800 3400 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

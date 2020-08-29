@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name enigma-rescue)(type Legacy)(uri ${KIPRJMOD}/enigma-rescue.lib)(options "")(descr ""))
+)
